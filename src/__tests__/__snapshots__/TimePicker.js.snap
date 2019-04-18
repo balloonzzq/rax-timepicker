@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TimePicker should render TimePicker 1`] = `
+Object {
+  "attributes": Object {
+    "type": "time",
+    "value": "10:10",
+  },
+  "eventListeners": Object {
+    "change": [Function],
+  },
+  "tagName": "INPUT",
+}
+`;
