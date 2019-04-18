@@ -13,6 +13,6 @@ describe('Picker in weex', () => {
     const tree = renderer.create(
       <TimePicker selectedValue={'10:10'} />
     ).toJSON();
-    expect(tree.children[0].tagName).toEqual('SPAN');
+    expect(tree.children[0].tagName).toEqual('TEXT');
   });
 });
